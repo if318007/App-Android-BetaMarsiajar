@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hokagelab.www.yodu">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="stud11318007.develops.betamarsiajar.SplashScreen"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="stud11318007.develops.betamarsiajar.alphabet"
+            android:theme="@style/AppThemeDua" />
+        <activity
+            android:name="stud11318007.develops.betamarsiajar.angka"
+            android:theme="@style/AppThemeTiga" />
+        <activity
+            android:name="stud11318007.develops.betamarsiajar.bentuk"
+            android:theme="@style/AppThemeEmpat" />
+        <activity android:name="stud11318007.develops.betamarsiajar.hewan" />
+        <activity android:name="stud11318007.develops.betamarsiajar.buah" />
+        <activity android:name="stud11318007.develops.betamarsiajar.warna" />
+        <activity android:name="stud11318007.develops.betamarsiajar.membaca" />
+        <activity android:name="stud11318007.develops.betamarsiajar.menghitung" />
+        <activity android:name="stud11318007.develops.betamarsiajar.lagu" />
+        <activity
+            android:name="stud11318007.develops.betamarsiajar.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="stud11318007.develops.betamarsiajar.About"></activity>
+    </application>
+
+</manifest>
